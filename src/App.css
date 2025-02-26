@@ -1,0 +1,84 @@
+h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 25px;
+}
+
+.container {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.search-box {
+    margin: 20px 0;
+}
+
+input {
+    padding: 8px;
+    width: 200px;
+}
+
+.button1 {
+    padding: 10px 15px;
+    background-color: #1573f6;
+    border-radius: 20px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #176f44;
+    border-radius: 0 20px 20px 0;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+
+.error {
+    color: red;
+    font-weight: bold;
+}
+
+.countries-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.country {
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    width: 200px;
+    background-color: #f9f9f9;
+}
+
+.country img {
+    width: 100px;
+    height: auto;
+}
+
+.country-info {
+    border: 1px solid #ddd;
+    padding: 15px;
+    display: inline-block;
+    margin-top: 20px;
+    background-color: #f9f9f9;
+}
+
+.country-info img {
+    width: 100px;
+    display: block;
+    margin: 10px auto;
+}
